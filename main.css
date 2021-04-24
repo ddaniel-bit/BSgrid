@@ -1,0 +1,13 @@
+#bekezdesek {
+    display: flex;
+}
+#bekezdesek div {
+    flex: 1;
+    margin-right: 3px;
+}
+#bekezdesek div:nth-child(1) {
+    order: 10;
+}
+#bekezdesek div:nth-child(10) {
+    order: -1;
+}
